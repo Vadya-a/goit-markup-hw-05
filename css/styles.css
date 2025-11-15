@@ -633,8 +633,8 @@ a {
 }
 .modal-button {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   background-color: var(--white-color);
