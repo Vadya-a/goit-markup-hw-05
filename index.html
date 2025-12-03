@@ -510,11 +510,14 @@
           <svg class="form-icon"><use href="./images/email-black.svg"></use></svg></div>
           <div class="form-field"><label class="form-label">Комменатрий</label>
             <textarea class="form-textarea" name="comment" rows="" placeholder="Введите текст"></textarea></div>
-            
-             <label class="form-checkbox" for="checkbox">Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="">Условия договора</a>
-            <input class="checkbox-input"  type="checkbox" name="conditions" value="conditions"> </input></label>
+   <div class="checkbox-option">
+          <label class="form-checkbox">
+            <input class="checkbox-input"  type="checkbox" name="conditions" id="checkbox" value="conditions"> </input>
+            Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="">Условия договора</a>
+        <span class="check-icon"></span>
+          </label>
            <button type="submit" class="form-button">Отправить</button>
-          
+          </div>
         </form>
       </div>
   </div>
